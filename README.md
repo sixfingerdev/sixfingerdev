@@ -18,7 +18,7 @@ I'm an independent developer based in Kayseri, Türkiye. My work spans **languag
 
 I like testing ideas on real hardware, publishing reproducible results, and being clear about the limitations of experimental work.
 
-### Selected open-source projects
+### Selected projects
 
 | Project | Focus |
 |---|---|
