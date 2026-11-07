@@ -2,9 +2,9 @@
 
 # Enes Altıparmak
 
-**SixFingerDev — LLM Research & Open-Source Engineering**
+**SixFingerDev — Language Model Research & Open-Source Engineering**
 
-Building efficient language-model systems, from architecture experiments to real-world inference and coding agents.
+Exploring efficient AI systems, experimental model architectures, and practical developer tools.
 
 [Website](https://www.sixfinger.live) · [Hugging Face](https://huggingface.co/sixfingerdev) · [X](https://x.com/sixfingerdev)
 
@@ -14,35 +14,46 @@ Building efficient language-model systems, from architecture experiments to real
 
 ### About
 
-I'm a developer based in Kayseri, Türkiye, working at the intersection of **language-model research**, **systems engineering**, and **open-source tooling**.
+I'm an independent developer based in Kayseri, Türkiye. My work spans **language models**, **inference efficiency**, **AI infrastructure**, and **developer tooling**.
 
-My focus is simple: make capable AI systems more efficient, measure the trade-offs honestly, and share reproducible experiments — including the ones that don't work.
+I like testing ideas on real hardware, publishing reproducible results, and being clear about the limitations of experimental work.
 
-### Selected projects
+### Selected open-source projects
 
-| Project | What it explores |
+| Project | Focus |
 | :--- | :--- |
-| **[Qwen3.8 Dense-to-MoE Feasibility](https://github.com/sixfingerdev/qwen38-dense-to-moe-feasibility)** | Can a dense 27B model be converted into a sparse MoE without substantial capability loss? Layer-level probes, measured negative results, and reference code. |
-| **[TurboTensors](https://github.com/sixfingerdev/TurboTensors)** | CPU inference performance through Numba-JIT kernels and memory-management experiments. |
-| **[Kayra Core](https://github.com/sixfingerdev/kayra-core)** | Small Turkish language-model experiments around instruction tuning, hallucinations, and human feedback. |
-| **[SixFinger API](https://github.com/sixfingerdev/sixfinger-api)** | An archived experiment in making AI models accessible through a free API. |
+| **[Qwen3.8 Dense-to-MoE Feasibility](https://github.com/sixfingerdev/qwen38-dense-to-moe-feasibility)** | An experimental investigation of structured sparsity in a dense 27B model, including measured negative results and an independent reference prototype. |
+| **[TurboTensors](https://github.com/sixfingerdev/TurboTensors)** | CPU inference experiments with Numba-JIT kernels and memory-management techniques. |
+| **[SixFinger Shield](https://github.com/sixfingerdev/sixfinger-shield)** | Browser fingerprinting and bot-detection experiments spanning a TypeScript core library, Flask backend, and web UI. |
+| **[Genesis](https://github.com/sixfingerdev/Genesis)** | A Python code-evolution engine exploring AST-based mutations, genetic algorithms, and automated benchmarking. |
 
-### Current directions
+### Models and datasets on Hugging Face
 
-- **Dense to sparse:** finding out where structural sparsity is possible, and where it breaks model behavior.
-- **Efficient inference:** exploring practical speed, memory, and deployment trade-offs on limited hardware.
-- **Coding agents:** improving tool-use workflows, training-data quality, and reproducible evaluation.
+| Release | What it contains |
+| :--- | :--- |
+| **[Kayra-1](https://huggingface.co/sixfingerdev/kayra-1)** | An experimental small Turkish language model with published weights and custom model code. |
+| **[SixFinger-2B](https://huggingface.co/sixfingerdev/sixfinger-2b)** | A Turkish-language fine-tuning experiment based on Kumru-2B, with a released checkpoint. |
+| **[Turkish QA & Multi-Dialog Dataset](https://huggingface.co/datasets/sixfingerdev/turkish-qa-multi-dialog-dataset)** | Roughly 21,300 question-answer and dialogue examples for Turkish-language experimentation. |
+| **[Qwen Dense-to-MoE Results](https://huggingface.co/datasets/sixfingerdev/qwen38-dense-to-moe-feasibility-results)** | Public aggregate measurements and limitations from a training-free sparsification study. |
 
-### Tools I work with
+[Explore all models and datasets](https://huggingface.co/sixfingerdev)
 
-`Python` · `PyTorch` · `Numba` · `llama.cpp` · `TypeScript` · `Go` · `Docker` · `Linux`
+### Current interests
+
+- **Model architecture:** memory, sparsity, low-rank representations, and quality–efficiency trade-offs.
+- **Efficient inference:** getting useful performance from limited GPU and CPU resources.
+- **Coding agents:** tool-use workflows, training-data quality, and practical evaluation.
+
+### Technologies
+
+`Python` · `PyTorch` · `Numba` · `llama.cpp` · `TypeScript` · `Go` · `Flask` · `Docker` · `Linux`
 
 ---
 
 <div align="center">
 
-**Research is more useful when the failures are documented, too.**
+**Experimental results matter — including those that challenge the original hypothesis.**
 
-[Explore repositories](https://github.com/sixfingerdev?tab=repositories) · [Models on Hugging Face](https://huggingface.co/sixfingerdev)
+[Repositories](https://github.com/sixfingerdev?tab=repositories) · [Hugging Face](https://huggingface.co/sixfingerdev)
 
 </div>
