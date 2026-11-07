@@ -21,13 +21,12 @@ I like testing ideas on real hardware, publishing reproducible results, and bein
 ### Selected open-source projects
 
 | Project | Focus |
-| :--- | :--- |
-| **[Qwen3.8 Dense-to-MoE Feasibility](https://github.com/sixfingerdev/qwen38-dense-to-moe-feasibility)** | An experimental investigation of structured sparsity in a dense 27B model, including measured negative results and an independent reference prototype. |
-| **[TurboTensors](https://github.com/sixfingerdev/TurboTensors)** | CPU inference experiments with Numba-JIT kernels and memory-management techniques. |
-| **[SixFinger Shield](https://github.com/sixfingerdev/sixfinger-shield)** | Browser fingerprinting and bot-detection experiments spanning a TypeScript core library, Flask backend, and web UI. |
-| **[Genesis](https://github.com/sixfingerdev/Genesis)** | A Python code-evolution engine exploring AST-based mutations, genetic algorithms, and automated benchmarking. |
+|---|---|
+| [Qwen3.8 Dense-to-MoE Feasibility](https://github.com/sixfingerdev/qwen38-dense-to-moe-feasibility) | A measured investigation of training-free structured sparsity in a dense 27B model, including negative results and reproducible reference code. |
+| [SixFinger Games](https://github.com/sixfingerdev/sixfinger-games) | Four browser-playable games built with Scratch and exported for the web. |
+| [ProgLR / V3-All](https://github.com/sixfingerdev/progLR-v3) | Research into low-rank transformer weight representations and memory-efficient language-model training on a 6 GB consumer GPU, with benchmarks and stated limitations. |
 
-### Models and datasets on Hugging Face
+## Models and datasets on Hugging Face
 
 | Release | What it contains |
 | :--- | :--- |
